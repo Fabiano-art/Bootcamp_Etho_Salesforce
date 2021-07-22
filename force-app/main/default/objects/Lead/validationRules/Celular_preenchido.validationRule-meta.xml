@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Celular_preenchido</fullName>
+    <active>true</active>
+    <description>Verificar se o campo Celular foi preenchido</description>
+    <errorConditionFormula>MobilePhone = null</errorConditionFormula>
+    <errorDisplayField>MobilePhone</errorDisplayField>
+    <errorMessage>O campo celular deve ser preenchido</errorMessage>
+</ValidationRule>

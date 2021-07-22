@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FraquezaContatoRelacao__c</fullName>
+    <description>Relação entre contato e fraquezas</description>
+    <externalId>false</externalId>
+    <label>Contato</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Fraquezas do contato</relationshipLabel>
+    <relationshipName>Fraquezas_do_contato</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

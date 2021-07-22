@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TreinamentoAvaliado__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Marcar se o treinamento do contato ja foi avaliado</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Marcar se caso o herói já foi avaliado</inlineHelpText>
+    <label>Treinamento avaliado ?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Est_preenchido__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (MobilePhone == null, &quot;Precisa do celular&quot;, &quot;celular preenchido&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Está preenchido?</inlineHelpText>
+    <label>Está preenchido?</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

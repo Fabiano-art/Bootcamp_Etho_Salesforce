@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isTerraqueo__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo para informar se o herói / vilão é da terra ou não</description>
+    <externalId>false</externalId>
+    <inlineHelpText>É da Terra?</inlineHelpText>
+    <label>É terráqueo?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

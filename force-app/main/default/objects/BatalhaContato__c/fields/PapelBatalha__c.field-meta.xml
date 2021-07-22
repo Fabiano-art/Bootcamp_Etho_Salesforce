@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PapelBatalha__c</fullName>
+    <description>Verifica o tipo de registro e insere qual e função do contato na batalha. Se caso heroi, irá salvar o mundo, se caso vilão, orá atacar o mundo</description>
+    <externalId>false</externalId>
+    <formula>if(Contato__r.RecordType.DeveloperName = &apos;Heroi&apos;, &apos;Salvar o mundo&apos;, &apos;atacar o mundo&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Papel na batalha</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

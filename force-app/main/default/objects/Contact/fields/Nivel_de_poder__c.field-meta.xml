@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nivel_de_poder__c</fullName>
+    <description>Informe de 1 a 10 o nivel de poder do vilão ou herói sendo 1 muito fraco e 10 muito forte</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Informe de 1 a 10 o nivel de poder do vilão ou herói sendo 1 muito fraco e 10 muito forte</inlineHelpText>
+    <label>Nivel de poder</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>NivelDePoder</valueSetName>
+    </valueSet>
+</CustomField>

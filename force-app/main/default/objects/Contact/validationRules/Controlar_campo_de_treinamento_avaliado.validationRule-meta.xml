@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Controlar_campo_de_treinamento_avaliado</fullName>
+    <active>false</active>
+    <description>Fazer com que o campo &quot;Treinamento avaliado&quot; seja preenchido somente quando o treinamento do herói foi avaliado pelo fluxo</description>
+    <errorConditionFormula>and ( TreinamentoAvaliado__c != true, ischanged(TreinamentoAvaliado__c))</errorConditionFormula>
+    <errorDisplayField>TreinamentoAvaliado__c</errorDisplayField>
+    <errorMessage>Este campo somente é alterado após fazer a avaliação do treinamento do herói.</errorMessage>
+</ValidationRule>

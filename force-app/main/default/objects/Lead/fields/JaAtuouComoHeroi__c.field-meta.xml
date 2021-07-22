@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JaAtuouComoHeroi__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Informa se o herói já atuou como herói em alguma missão ou batalha</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Informar se o herói já atuou em alguma missão</inlineHelpText>
+    <label>Já atuou como herói?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

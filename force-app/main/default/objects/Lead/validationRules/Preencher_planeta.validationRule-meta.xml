@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Preencher_planeta</fullName>
+    <active>true</active>
+    <description>Se caso &apos;É terraqueo&apos; não for selecionado, pedir para informar o planeta</description>
+    <errorConditionFormula>AND(NOT( isTerraqueo__c ), ISBLANK( Planeta__c ))</errorConditionFormula>
+    <errorDisplayField>Planeta__c</errorDisplayField>
+    <errorMessage>Informe o planeta</errorMessage>
+</ValidationRule>
