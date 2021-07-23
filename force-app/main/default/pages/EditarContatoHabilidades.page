@@ -6,6 +6,7 @@
                 <apex:pageBlockButtons location="bottom">
                     <apex:commandButton value="Voltar ao registro" action="{!cancelar}"/>
                     <apex:commandButton value="Salvar" action="{!salvar}"/>
+                    <apex:commandButton value="Ver herói no site Marvel" action="{!seeHeroDetails}"/>
                 </apex:pageBlockButtons>
 
                 <apex:pageBlockSection title='Informações do {!contact.RecordType.name}'>
