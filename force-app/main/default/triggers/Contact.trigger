@@ -4,7 +4,7 @@ trigger Contact on Contact (before insert) {
     
     switch on Trigger.operationType {
         when BEFORE_INSERT{
-            handler.onBeforeInsert(Trigger.new, Trigger.oldMap);
+            handler.onBeforeInsert(Trigger.new);
         }
         when BEFORE_UPDATE{
             handler.onBeforeUpdate(Trigger.new, Trigger.oldMap);

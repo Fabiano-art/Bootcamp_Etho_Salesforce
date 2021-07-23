@@ -82,9 +82,9 @@ public class AtualizaRankingHabilidadeTrigger {
                 }
             }
             
-            TriggerHandler.bypass('HabilidadeContatoTriggerHandler');
+            TriggerHandler.bypass('HabilidadeContatoHandler');
             update habilidadesParaAtualizarRanking;
-            TriggerHandler.clearBypass('HabilidadeContatoTriggerHandler');
+            TriggerHandler.clearBypass('HabilidadeContatoHandler');
         }        
     }
     
